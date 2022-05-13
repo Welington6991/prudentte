@@ -7,7 +7,8 @@ export const ContentSearch = styled.View`
 `;
 
 export const SearchInput = styled.TextInput.attrs({
-    placeholder: 'Search job, company, etc..'
+    placeholder: 'Search job, company, etc..',
+    placeholderTextColor: '#7a7b7c'
 })`
     width: 328px;
     height: 56px;
@@ -20,7 +21,7 @@ export const SearchInput = styled.TextInput.attrs({
     font-size: 14px;
     line-height: 17px;
     letter-spacing: -0.24px;
-    color: ${props => props.value ? '#171716' : 'rgba(23, 23, 22, 0.55)'};
+    color: #171716;
     padding-left: 52px;
 `;
 
